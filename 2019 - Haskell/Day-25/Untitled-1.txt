@@ -1,0 +1,38 @@
+("== Arcade ==",(["north","west"],["sand"]))
+("== Corridor ==",(["north","south","west"],["escape pod"]))
+("== Engineering ==",(["east","west"],["semiconductor"]))
+("== Gift Wrapping Center ==",(["south"],["hypercube"]))
+("== Holodeck ==",(["west"],["planetoid"]))
+("== Hot Chocolate Fountain ==",(["north","south","west"],["spool of cat6"]))
+("== Kitchen ==",(["north","south","west"],["festive hat"]))
+("== Navigation ==",(["west"],["space heater"]))
+("== Observatory ==",(["north","east"],["dark matter"]))
+("== Science Lab ==",(["east","south"],["photons"]))
+("== Sick Bay ==",(["north","east"],["giant electromagnet"]))
+("== Storage ==",(["north","east","south"],["infinite loop"]))
+("== Warp Drive Maintenance ==",(["south"],["molten lava"]))
+
+space heater ! x
+festive hat ! 
+spool of cat6 ! XX
+planetoid ! x
+hypercube ! *
+semiconductor ! x
+sand ! x
+
+- semiconductor
+- hypercube
+- festive hat
+Command?
+take space heater
+You take the space heater.
+Command?
+west
+== Pressure-Sensitive Floor ==
+Analyzing...
+Doors here lead:
+- east
+A loud, robotic voice says "Analysis complete! You may proceed." and you enter the cockpit.
+Santa notices your small droid, looks puzzled for a moment, realizes what has happened,
+and radios your ship directly.
+"Oh, hello! You should be able to get in by typing 35332 on the keypad at the main airlock."

@@ -1,0 +1,323 @@
+<svg width="743pt" height="1034pt" viewBox="0.00 0.00 743.00 1034.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph1" class="graph" transform="scale(1 1) rotate(0) translate(4 1030)">
+<title>G</title>
+<polygon fill="white" stroke="white" points="-4,5 -4,-1030 740,-1030 740,5 -4,5"></polygon>
+<!-- == Security Checkpoint == -->
+<g id="node1" class="node"><title>== Security Checkpoint ==</title>
+<ellipse fill="none" stroke="black" cx="268" cy="-1008" rx="116.15" ry="18"></ellipse>
+<text text-anchor="middle" x="268" y="-1003.8" font-family="Times,serif" font-size="14.00">== Security Checkpoint ==</text>
+</g>
+<!-- == Security Checkpoint ==&#45;&gt;== Security Checkpoint == -->
+<g id="edge2" class="edge"><title>== Security Checkpoint ==-&gt;== Security Checkpoint ==</title>
+<path fill="none" stroke="black" d="M373.607,-1015.6C390.463,-1014.49 402,-1011.95 402,-1008 402,-1004.91 394.958,-1002.69 383.84,-1001.34"></path>
+<polygon fill="black" stroke="black" points="383.884,-997.826 373.607,-1000.4 383.248,-1004.8 383.884,-997.826"></polygon>
+<text text-anchor="middle" x="414.828" y="-1003.8" font-family="Times,serif" font-size="14.00">west</text>
+</g>
+<!-- == Arcade == -->
+<g id="node4" class="node"><title>== Arcade ==</title>
+<ellipse fill="none" stroke="black" cx="268" cy="-918" rx="65.2829" ry="18"></ellipse>
+<text text-anchor="middle" x="268" y="-913.8" font-family="Times,serif" font-size="14.00">== Arcade ==</text>
+</g>
+<!-- == Security Checkpoint ==&#45;&gt;== Arcade == -->
+<g id="edge4" class="edge"><title>== Security Checkpoint ==-&gt;== Arcade ==</title>
+<path fill="none" stroke="black" d="M252.482,-990.037C248.494,-984.655 244.745,-978.423 242.665,-972 240.199,-964.389 240.199,-961.611 242.665,-954 243.761,-950.615 245.322,-947.282 247.136,-944.099"></path>
+<polygon fill="black" stroke="black" points="250.156,-945.878 252.748,-935.605 244.315,-942.019 250.156,-945.878"></polygon>
+<text text-anchor="middle" x="258.168" y="-958.8" font-family="Times,serif" font-size="14.00">south</text>
+</g>
+<!-- == Arcade ==&#45;&gt;== Security Checkpoint == -->
+<g id="edge10" class="edge"><title>== Arcade ==-&gt;== Security Checkpoint ==</title>
+<path fill="none" stroke="black" d="M270.928,-936.038C271.775,-941.731 272.582,-948.122 273,-954 273.567,-961.98 273.567,-964.02 273,-972 272.817,-974.572 272.56,-977.241 272.257,-979.908"></path>
+<polygon fill="black" stroke="black" points="268.769,-979.59 270.928,-989.962 275.709,-980.507 268.769,-979.59"></polygon>
+<text text-anchor="middle" x="288.776" y="-958.8" font-family="Times,serif" font-size="14.00">north</text>
+</g>
+<!-- == Engineering == -->
+<g id="node9" class="node"><title>== Engineering ==</title>
+<ellipse fill="none" stroke="black" cx="268" cy="-828" rx="84.2679" ry="18"></ellipse>
+<text text-anchor="middle" x="268" y="-823.8" font-family="Times,serif" font-size="14.00">== Engineering ==</text>
+</g>
+<!-- == Arcade ==&#45;&gt;== Engineering == -->
+<g id="edge8" class="edge"><title>== Arcade ==-&gt;== Engineering ==</title>
+<path fill="none" stroke="black" d="M254.342,-900.175C250.687,-894.703 247.23,-888.386 245.344,-882 243.077,-874.328 243.077,-871.672 245.344,-864 246.287,-860.807 247.623,-857.631 249.18,-854.57"></path>
+<polygon fill="black" stroke="black" points="252.272,-856.216 254.342,-845.825 246.244,-852.657 252.272,-856.216"></polygon>
+<text text-anchor="middle" x="258.828" y="-868.8" font-family="Times,serif" font-size="14.00">west</text>
+</g>
+<!-- == Holodeck == -->
+<g id="node5" class="node"><title>== Holodeck ==</title>
+<ellipse fill="none" stroke="black" cx="128" cy="-18" rx="75.2845" ry="18"></ellipse>
+<text text-anchor="middle" x="128" y="-13.8" font-family="Times,serif" font-size="14.00">== Holodeck ==</text>
+</g>
+<!-- == Hallway == -->
+<g id="node7" class="node"><title>== Hallway ==</title>
+<ellipse fill="none" stroke="black" cx="128" cy="-108" rx="70.0393" ry="18"></ellipse>
+<text text-anchor="middle" x="128" y="-103.8" font-family="Times,serif" font-size="14.00">== Hallway ==</text>
+</g>
+<!-- == Holodeck ==&#45;&gt;== Hallway == -->
+<g id="edge6" class="edge"><title>== Holodeck ==-&gt;== Hallway ==</title>
+<path fill="none" stroke="black" d="M128.586,-36.0878C128.755,-41.7842 128.917,-48.1649 129,-54 129.114,-61.9992 129.114,-64.0008 129,-72 128.964,-74.5529 128.912,-77.2101 128.852,-79.8689"></path>
+<polygon fill="black" stroke="black" points="125.352,-79.8231 128.586,-89.9122 132.349,-80.0083 125.352,-79.8231"></polygon>
+<text text-anchor="middle" x="142.828" y="-58.8" font-family="Times,serif" font-size="14.00">west</text>
+</g>
+<!-- == Hallway ==&#45;&gt;== Holodeck == -->
+<g id="edge14" class="edge"><title>== Hallway ==-&gt;== Holodeck ==</title>
+<path fill="none" stroke="black" d="M113.087,-90.3468C109.093,-84.8818 105.311,-78.5261 103.236,-72 100.811,-64.3762 100.811,-61.6238 103.236,-54 104.306,-50.635 105.83,-47.3153 107.602,-44.1396"></path>
+<polygon fill="black" stroke="black" points="110.598,-45.9517 113.087,-35.6532 104.719,-42.1521 110.598,-45.9517"></polygon>
+<text text-anchor="middle" x="114.882" y="-58.8" font-family="Times,serif" font-size="14.00">east</text>
+</g>
+<!-- == Sick Bay == -->
+<g id="node12" class="node"><title>== Sick Bay ==</title>
+<ellipse fill="none" stroke="black" cx="128" cy="-198" rx="72.1778" ry="18"></ellipse>
+<text text-anchor="middle" x="128" y="-193.8" font-family="Times,serif" font-size="14.00">== Sick Bay ==</text>
+</g>
+<!-- == Hallway ==&#45;&gt;== Sick Bay == -->
+<g id="edge12" class="edge"><title>== Hallway ==-&gt;== Sick Bay ==</title>
+<path fill="none" stroke="black" d="M128.586,-126.088C128.755,-131.784 128.917,-138.165 129,-144 129.114,-151.999 129.114,-154.001 129,-162 128.964,-164.553 128.912,-167.21 128.852,-169.869"></path>
+<polygon fill="black" stroke="black" points="125.352,-169.823 128.586,-179.912 132.349,-170.008 125.352,-169.823"></polygon>
+<text text-anchor="middle" x="142.828" y="-148.8" font-family="Times,serif" font-size="14.00">west</text>
+</g>
+<!-- == Engineering ==&#45;&gt;== Arcade == -->
+<g id="edge18" class="edge"><title>== Engineering ==-&gt;== Arcade ==</title>
+<path fill="none" stroke="black" d="M269.758,-846.071C270.265,-851.766 270.75,-858.151 271,-864 271.342,-871.993 271.342,-874.007 271,-882 270.891,-884.559 270.736,-887.221 270.555,-889.882"></path>
+<polygon fill="black" stroke="black" points="267.06,-889.683 269.758,-899.929 274.038,-890.237 267.06,-889.683"></polygon>
+<text text-anchor="middle" x="282.882" y="-868.8" font-family="Times,serif" font-size="14.00">east</text>
+</g>
+<!-- == Science Lab == -->
+<g id="node15" class="node"><title>== Science Lab ==</title>
+<ellipse fill="none" stroke="black" cx="268" cy="-738" rx="85.1551" ry="18"></ellipse>
+<text text-anchor="middle" x="268" y="-733.8" font-family="Times,serif" font-size="14.00">== Science Lab ==</text>
+</g>
+<!-- == Engineering ==&#45;&gt;== Science Lab == -->
+<g id="edge16" class="edge"><title>== Engineering ==-&gt;== Science Lab ==</title>
+<path fill="none" stroke="black" d="M254.342,-810.175C250.687,-804.703 247.23,-798.386 245.344,-792 243.077,-784.328 243.077,-781.672 245.344,-774 246.287,-770.807 247.623,-767.631 249.18,-764.57"></path>
+<polygon fill="black" stroke="black" points="252.272,-766.216 254.342,-755.825 246.244,-762.657 252.272,-766.216"></polygon>
+<text text-anchor="middle" x="258.828" y="-778.8" font-family="Times,serif" font-size="14.00">west</text>
+</g>
+<!-- == Sick Bay ==&#45;&gt;== Hallway == -->
+<g id="edge20" class="edge"><title>== Sick Bay ==-&gt;== Hallway ==</title>
+<path fill="none" stroke="black" d="M113.087,-180.347C109.093,-174.882 105.311,-168.526 103.236,-162 100.811,-154.376 100.811,-151.624 103.236,-144 104.306,-140.635 105.83,-137.315 107.602,-134.14"></path>
+<polygon fill="black" stroke="black" points="110.598,-135.952 113.087,-125.653 104.719,-132.152 110.598,-135.952"></polygon>
+<text text-anchor="middle" x="114.882" y="-148.8" font-family="Times,serif" font-size="14.00">east</text>
+</g>
+<!-- == Stables == -->
+<g id="node19" class="node"><title>== Stables ==</title>
+<ellipse fill="none" stroke="black" cx="124" cy="-288" rx="65.3103" ry="18"></ellipse>
+<text text-anchor="middle" x="124" y="-283.8" font-family="Times,serif" font-size="14.00">== Stables ==</text>
+</g>
+<!-- == Sick Bay ==&#45;&gt;== Stables == -->
+<g id="edge22" class="edge"><title>== Sick Bay ==-&gt;== Stables ==</title>
+<path fill="none" stroke="black" d="M132.143,-216.215C134.096,-226.597 135.67,-240.078 134,-252 133.64,-254.574 133.137,-257.224 132.547,-259.859"></path>
+<polygon fill="black" stroke="black" points="129.102,-259.198 129.955,-269.759 135.874,-260.971 129.102,-259.198"></polygon>
+<text text-anchor="middle" x="149.776" y="-238.8" font-family="Times,serif" font-size="14.00">north</text>
+</g>
+<!-- == Science Lab ==&#45;&gt;== Engineering == -->
+<g id="edge30" class="edge"><title>== Science Lab ==-&gt;== Engineering ==</title>
+<path fill="none" stroke="black" d="M269.758,-756.071C270.265,-761.766 270.75,-768.151 271,-774 271.342,-781.993 271.342,-784.007 271,-792 270.891,-794.559 270.736,-797.221 270.555,-799.882"></path>
+<polygon fill="black" stroke="black" points="267.06,-799.683 269.758,-809.929 274.038,-800.237 267.06,-799.683"></polygon>
+<text text-anchor="middle" x="282.882" y="-778.8" font-family="Times,serif" font-size="14.00">east</text>
+</g>
+<!-- == Observatory == -->
+<g id="node26" class="node"><title>== Observatory ==</title>
+<ellipse fill="none" stroke="black" cx="268" cy="-648" rx="85.0625" ry="18"></ellipse>
+<text text-anchor="middle" x="268" y="-643.8" font-family="Times,serif" font-size="14.00">== Observatory ==</text>
+</g>
+<!-- == Science Lab ==&#45;&gt;== Observatory == -->
+<g id="edge28" class="edge"><title>== Science Lab ==-&gt;== Observatory ==</title>
+<path fill="none" stroke="black" d="M252.482,-720.037C248.494,-714.655 244.745,-708.423 242.665,-702 240.199,-694.389 240.199,-691.611 242.665,-684 243.705,-680.789 245.162,-677.625 246.858,-674.591"></path>
+<polygon fill="black" stroke="black" points="249.954,-676.251 252.482,-665.963 244.089,-672.429 249.954,-676.251"></polygon>
+<text text-anchor="middle" x="258.168" y="-688.8" font-family="Times,serif" font-size="14.00">south</text>
+</g>
+<!-- == Stables ==&#45;&gt;== Sick Bay == -->
+<g id="edge32" class="edge"><title>== Stables ==-&gt;== Sick Bay ==</title>
+<path fill="none" stroke="black" d="M108.925,-270.138C101.616,-259.881 95.2719,-246.408 99.6648,-234 100.912,-230.476 102.682,-227.048 104.736,-223.802"></path>
+<polygon fill="black" stroke="black" points="107.587,-225.833 110.671,-215.697 101.939,-221.698 107.587,-225.833"></polygon>
+<text text-anchor="middle" x="115.168" y="-238.8" font-family="Times,serif" font-size="14.00">south</text>
+</g>
+<!-- == Storage == -->
+<g id="node30" class="node"><title>== Storage ==</title>
+<ellipse fill="none" stroke="black" cx="250" cy="-378" rx="67.2166" ry="18"></ellipse>
+<text text-anchor="middle" x="250" y="-373.8" font-family="Times,serif" font-size="14.00">== Storage ==</text>
+</g>
+<!-- == Stables ==&#45;&gt;== Storage == -->
+<g id="edge34" class="edge"><title>== Stables ==-&gt;== Storage ==</title>
+<path fill="none" stroke="black" d="M147.074,-305.115C167.187,-319.162 196.535,-339.659 218.751,-355.175"></path>
+<polygon fill="black" stroke="black" points="216.98,-358.207 227.182,-361.064 220.988,-352.468 216.98,-358.207"></polygon>
+<text text-anchor="middle" x="213.776" y="-328.8" font-family="Times,serif" font-size="14.00">north</text>
+</g>
+<!-- == Passages == -->
+<g id="node20" class="node"><title>== Passages ==</title>
+<ellipse fill="none" stroke="black" cx="316" cy="-198" rx="71.4565" ry="18"></ellipse>
+<text text-anchor="middle" x="316" y="-193.8" font-family="Times,serif" font-size="14.00">== Passages ==</text>
+</g>
+<!-- == Corridor == -->
+<g id="node22" class="node"><title>== Corridor ==</title>
+<ellipse fill="none" stroke="black" cx="457" cy="-288" rx="70.3521" ry="18"></ellipse>
+<text text-anchor="middle" x="457" y="-283.8" font-family="Times,serif" font-size="14.00">== Corridor ==</text>
+</g>
+<!-- == Passages ==&#45;&gt;== Corridor == -->
+<g id="edge24" class="edge"><title>== Passages ==-&gt;== Corridor ==</title>
+<path fill="none" stroke="black" d="M341.821,-215.115C364.527,-229.286 397.752,-250.022 422.689,-265.586"></path>
+<polygon fill="black" stroke="black" points="421.129,-268.738 431.466,-271.064 424.836,-262.8 421.129,-268.738"></polygon>
+<text text-anchor="middle" x="410.882" y="-238.8" font-family="Times,serif" font-size="14.00">east</text>
+</g>
+<!-- == Corridor ==&#45;&gt;== Passages == -->
+<g id="edge40" class="edge"><title>== Corridor ==-&gt;== Passages ==</title>
+<path fill="none" stroke="black" d="M406.746,-275.368C381.52,-268.757 354.251,-260.185 344.344,-252 335.897,-245.022 329.611,-234.852 325.134,-225.282"></path>
+<polygon fill="black" stroke="black" points="328.354,-223.911 321.248,-216.053 321.903,-226.628 328.354,-223.911"></polygon>
+<text text-anchor="middle" x="357.828" y="-238.8" font-family="Times,serif" font-size="14.00">west</text>
+</g>
+<!-- == Gift Wrapping Center == -->
+<g id="node23" class="node"><title>== Gift Wrapping Center ==</title>
+<ellipse fill="none" stroke="black" cx="528" cy="-198" rx="122.076" ry="18"></ellipse>
+<text text-anchor="middle" x="528" y="-193.8" font-family="Times,serif" font-size="14.00">== Gift Wrapping Center ==</text>
+</g>
+<!-- == Corridor ==&#45;&gt;== Gift Wrapping Center == -->
+<g id="edge44" class="edge"><title>== Corridor ==-&gt;== Gift Wrapping Center ==</title>
+<path fill="none" stroke="black" d="M453.637,-269.922C452.396,-258.83 452.663,-244.53 459.449,-234 462.869,-228.693 467.362,-224.152 472.415,-220.276"></path>
+<polygon fill="black" stroke="black" points="474.369,-223.18 480.743,-214.718 470.483,-217.358 474.369,-223.18"></polygon>
+<text text-anchor="middle" x="474.776" y="-238.8" font-family="Times,serif" font-size="14.00">north</text>
+</g>
+<!-- == Hot Chocolate Fountain == -->
+<g id="node35" class="node"><title>== Hot Chocolate Fountain ==</title>
+<ellipse fill="none" stroke="black" cx="491" cy="-378" rx="130.173" ry="18"></ellipse>
+<text text-anchor="middle" x="491" y="-373.8" font-family="Times,serif" font-size="14.00">== Hot Chocolate Fountain ==</text>
+</g>
+<!-- == Corridor ==&#45;&gt;== Hot Chocolate Fountain == -->
+<g id="edge42" class="edge"><title>== Corridor ==-&gt;== Hot Chocolate Fountain ==</title>
+<path fill="none" stroke="black" d="M471.386,-305.879C475.39,-311.353 479.361,-317.657 482,-324 485.327,-331.998 487.425,-341.163 488.747,-349.598"></path>
+<polygon fill="black" stroke="black" points="485.305,-350.271 490.041,-359.748 492.248,-349.386 485.305,-350.271"></polygon>
+<text text-anchor="middle" x="503.168" y="-328.8" font-family="Times,serif" font-size="14.00">south</text>
+</g>
+<!-- == Gift Wrapping Center ==&#45;&gt;== Corridor == -->
+<g id="edge26" class="edge"><title>== Gift Wrapping Center ==-&gt;== Corridor ==</title>
+<path fill="none" stroke="black" d="M517.854,-216.367C511.298,-227.048 502.282,-240.789 493,-252 489.897,-255.747 486.436,-259.524 482.921,-263.14"></path>
+<polygon fill="black" stroke="black" points="480.363,-260.748 475.725,-270.274 485.291,-265.719 480.363,-260.748"></polygon>
+<text text-anchor="middle" x="521.168" y="-238.8" font-family="Times,serif" font-size="14.00">south</text>
+</g>
+<!-- == Observatory ==&#45;&gt;== Science Lab == -->
+<g id="edge48" class="edge"><title>== Observatory ==-&gt;== Science Lab ==</title>
+<path fill="none" stroke="black" d="M270.928,-666.038C271.775,-671.731 272.582,-678.122 273,-684 273.567,-691.98 273.567,-694.02 273,-702 272.817,-704.572 272.56,-707.241 272.257,-709.908"></path>
+<polygon fill="black" stroke="black" points="268.769,-709.59 270.928,-719.962 275.709,-710.507 268.769,-709.59"></polygon>
+<text text-anchor="middle" x="288.776" y="-688.8" font-family="Times,serif" font-size="14.00">north</text>
+</g>
+<!-- == Kitchen == -->
+<g id="node40" class="node"><title>== Kitchen ==</title>
+<ellipse fill="none" stroke="black" cx="268" cy="-558" rx="68.3247" ry="18"></ellipse>
+<text text-anchor="middle" x="268" y="-553.8" font-family="Times,serif" font-size="14.00">== Kitchen ==</text>
+</g>
+<!-- == Observatory ==&#45;&gt;== Kitchen == -->
+<g id="edge46" class="edge"><title>== Observatory ==-&gt;== Kitchen ==</title>
+<path fill="none" stroke="black" d="M255.47,-630.03C252.12,-624.552 248.955,-618.268 247.236,-612 245.119,-604.285 245.119,-601.715 247.236,-594 248.068,-590.964 249.241,-587.924 250.609,-584.974"></path>
+<polygon fill="black" stroke="black" points="253.799,-586.433 255.47,-575.97 247.639,-583.107 253.799,-586.433"></polygon>
+<text text-anchor="middle" x="258.882" y="-598.8" font-family="Times,serif" font-size="14.00">east</text>
+</g>
+<!-- == Storage ==&#45;&gt;== Stables == -->
+<g id="edge52" class="edge"><title>== Storage ==-&gt;== Stables ==</title>
+<path fill="none" stroke="black" d="M192.019,-368.804C173.942,-363.702 155.214,-355.425 141.665,-342 134.757,-335.155 130.55,-325.542 127.989,-316.379"></path>
+<polygon fill="black" stroke="black" points="131.352,-315.382 125.739,-306.396 124.523,-316.921 131.352,-315.382"></polygon>
+<text text-anchor="middle" x="157.168" y="-328.8" font-family="Times,serif" font-size="14.00">south</text>
+</g>
+<!-- == Navigation == -->
+<g id="node31" class="node"><title>== Navigation ==</title>
+<ellipse fill="none" stroke="black" cx="288" cy="-288" rx="80.3351" ry="18"></ellipse>
+<text text-anchor="middle" x="288" y="-283.8" font-family="Times,serif" font-size="14.00">== Navigation ==</text>
+</g>
+<!-- == Storage ==&#45;&gt;== Navigation == -->
+<g id="edge54" class="edge"><title>== Storage ==-&gt;== Navigation ==</title>
+<path fill="none" stroke="black" d="M244.174,-359.984C241.489,-349.184 239.935,-335.187 245.236,-324 247.23,-319.79 250.007,-315.917 253.198,-312.406"></path>
+<polygon fill="black" stroke="black" points="255.843,-314.721 260.7,-305.305 251.031,-309.637 255.843,-314.721"></polygon>
+<text text-anchor="middle" x="256.882" y="-328.8" font-family="Times,serif" font-size="14.00">east</text>
+</g>
+<!-- == Hull Breach == -->
+<g id="node47" class="node"><title>== Hull Breach ==</title>
+<ellipse fill="none" stroke="black" cx="373" cy="-468" rx="84.3581" ry="18"></ellipse>
+<text text-anchor="middle" x="373" y="-463.8" font-family="Times,serif" font-size="14.00">== Hull Breach ==</text>
+</g>
+<!-- == Storage ==&#45;&gt;== Hull Breach == -->
+<g id="edge56" class="edge"><title>== Storage ==-&gt;== Hull Breach ==</title>
+<path fill="none" stroke="black" d="M272.725,-395.258C292.192,-409.186 320.413,-429.377 341.961,-444.793"></path>
+<polygon fill="black" stroke="black" points="339.983,-447.682 350.153,-450.654 344.057,-441.989 339.983,-447.682"></polygon>
+<text text-anchor="middle" x="337.776" y="-418.8" font-family="Times,serif" font-size="14.00">north</text>
+</g>
+<!-- == Navigation ==&#45;&gt;== Storage == -->
+<g id="edge36" class="edge"><title>== Navigation ==-&gt;== Storage ==</title>
+<path fill="none" stroke="black" d="M283.603,-306.08C280.619,-316.654 276.264,-330.382 271,-342 269.626,-345.034 268.048,-348.133 266.388,-351.172"></path>
+<polygon fill="black" stroke="black" points="263.269,-349.573 261.283,-359.98 269.326,-353.084 263.269,-349.573"></polygon>
+<text text-anchor="middle" x="290.828" y="-328.8" font-family="Times,serif" font-size="14.00">west</text>
+</g>
+<!-- == Crew Quarters == -->
+<g id="node33" class="node"><title>== Crew Quarters ==</title>
+<ellipse fill="none" stroke="black" cx="640" cy="-288" rx="94.3252" ry="18"></ellipse>
+<text text-anchor="middle" x="640" y="-283.8" font-family="Times,serif" font-size="14.00">== Crew Quarters ==</text>
+</g>
+<!-- == Crew Quarters ==&#45;&gt;== Hot Chocolate Fountain == -->
+<g id="edge38" class="edge"><title>== Crew Quarters ==-&gt;== Hot Chocolate Fountain ==</title>
+<path fill="none" stroke="black" d="M633.907,-306.112C628.914,-317.804 620.744,-332.792 609,-342 599.607,-349.365 588.695,-355.182 577.374,-359.776"></path>
+<polygon fill="black" stroke="black" points="575.935,-356.577 567.792,-363.355 578.385,-363.135 575.935,-356.577"></polygon>
+<text text-anchor="middle" x="639.776" y="-328.8" font-family="Times,serif" font-size="14.00">north</text>
+</g>
+<!-- == Hot Chocolate Fountain ==&#45;&gt;== Corridor == -->
+<g id="edge62" class="edge"><title>== Hot Chocolate Fountain ==-&gt;== Corridor ==</title>
+<path fill="none" stroke="black" d="M463.392,-360.302C457.368,-355.232 451.798,-349.092 448.449,-342 444.615,-333.883 444.877,-324.372 446.694,-315.664"></path>
+<polygon fill="black" stroke="black" points="450.09,-316.515 449.391,-305.944 443.345,-314.644 450.09,-316.515"></polygon>
+<text text-anchor="middle" x="463.776" y="-328.8" font-family="Times,serif" font-size="14.00">north</text>
+</g>
+<!-- == Hot Chocolate Fountain ==&#45;&gt;== Crew Quarters == -->
+<g id="edge60" class="edge"><title>== Hot Chocolate Fountain ==-&gt;== Crew Quarters ==</title>
+<path fill="none" stroke="black" d="M516.335,-360.274C532.775,-349.59 554.765,-335.613 574.665,-324 582.745,-319.285 591.505,-314.425 599.908,-309.883"></path>
+<polygon fill="black" stroke="black" points="601.673,-312.908 608.835,-305.101 598.368,-306.737 601.673,-312.908"></polygon>
+<text text-anchor="middle" x="590.168" y="-328.8" font-family="Times,serif" font-size="14.00">south</text>
+</g>
+<!-- == Hot Chocolate Fountain ==&#45;&gt;== Hull Breach == -->
+<g id="edge58" class="edge"><title>== Hot Chocolate Fountain ==-&gt;== Hull Breach ==</title>
+<path fill="none" stroke="black" d="M474.318,-396.015C463.151,-406.946 447.833,-421.088 433,-432 426.443,-436.823 419.172,-441.537 412.02,-445.862"></path>
+<polygon fill="black" stroke="black" points="409.934,-443.028 403.087,-451.113 413.482,-449.063 409.934,-443.028"></polygon>
+<text text-anchor="middle" x="467.828" y="-418.8" font-family="Times,serif" font-size="14.00">west</text>
+</g>
+<!-- == Kitchen ==&#45;&gt;== Observatory == -->
+<g id="edge64" class="edge"><title>== Kitchen ==-&gt;== Observatory ==</title>
+<path fill="none" stroke="black" d="M268.586,-576.088C268.755,-581.784 268.917,-588.165 269,-594 269.114,-601.999 269.114,-604.001 269,-612 268.964,-614.553 268.912,-617.21 268.852,-619.869"></path>
+<polygon fill="black" stroke="black" points="265.352,-619.823 268.586,-629.912 272.349,-620.008 265.352,-619.823"></polygon>
+<text text-anchor="middle" x="282.828" y="-598.8" font-family="Times,serif" font-size="14.00">west</text>
+</g>
+<!-- == Warp Drive Maintenance == -->
+<g id="node42" class="node"><title>== Warp Drive Maintenance ==</title>
+<ellipse fill="none" stroke="black" cx="135" cy="-468" rx="135.165" ry="18"></ellipse>
+<text text-anchor="middle" x="135" y="-463.8" font-family="Times,serif" font-size="14.00">== Warp Drive Maintenance ==</text>
+</g>
+<!-- == Kitchen ==&#45;&gt;== Warp Drive Maintenance == -->
+<g id="edge68" class="edge"><title>== Kitchen ==-&gt;== Warp Drive Maintenance ==</title>
+<path fill="none" stroke="black" d="M209.394,-548.796C190.641,-543.693 170.994,-535.419 156.449,-522 149.001,-515.129 144.083,-505.311 140.861,-495.988"></path>
+<polygon fill="black" stroke="black" points="144.17,-494.836 137.991,-486.23 137.454,-496.811 144.17,-494.836"></polygon>
+<text text-anchor="middle" x="171.776" y="-508.8" font-family="Times,serif" font-size="14.00">north</text>
+</g>
+<!-- == Kitchen ==&#45;&gt;== Hull Breach == -->
+<g id="edge66" class="edge"><title>== Kitchen ==-&gt;== Hull Breach ==</title>
+<path fill="none" stroke="black" d="M281.067,-540.07C290.076,-529.04 302.719,-514.755 315.665,-504 321.462,-499.184 327.986,-494.569 334.501,-490.361"></path>
+<polygon fill="black" stroke="black" points="336.659,-493.141 343.309,-484.893 332.967,-487.193 336.659,-493.141"></polygon>
+<text text-anchor="middle" x="331.168" y="-508.8" font-family="Times,serif" font-size="14.00">south</text>
+</g>
+<!-- == Warp Drive Maintenance ==&#45;&gt;== Kitchen == -->
+<g id="edge50" class="edge"><title>== Warp Drive Maintenance ==-&gt;== Kitchen ==</title>
+<path fill="none" stroke="black" d="M160.263,-485.715C181.591,-499.827 212.269,-520.125 235.438,-535.455"></path>
+<polygon fill="black" stroke="black" points="233.644,-538.465 243.915,-541.064 237.506,-532.627 233.644,-538.465"></polygon>
+<text text-anchor="middle" x="229.168" y="-508.8" font-family="Times,serif" font-size="14.00">south</text>
+</g>
+<!-- == Hull Breach ==&#45;&gt;== Storage == -->
+<g id="edge70" class="edge"><title>== Hull Breach ==-&gt;== Storage ==</title>
+<path fill="none" stroke="black" d="M308.473,-456.383C293.156,-451.198 277.995,-443.482 266.665,-432 259.872,-425.116 255.844,-415.494 253.457,-406.335"></path>
+<polygon fill="black" stroke="black" points="256.847,-405.448 251.399,-396.362 249.992,-406.863 256.847,-405.448"></polygon>
+<text text-anchor="middle" x="282.168" y="-418.8" font-family="Times,serif" font-size="14.00">south</text>
+</g>
+<!-- == Hull Breach ==&#45;&gt;== Hot Chocolate Fountain == -->
+<g id="edge72" class="edge"><title>== Hull Breach ==-&gt;== Hot Chocolate Fountain ==</title>
+<path fill="none" stroke="black" d="M380.725,-449.781C386.597,-438.342 395.64,-423.698 407.236,-414 414.25,-408.134 422.386,-403.129 430.777,-398.896"></path>
+<polygon fill="black" stroke="black" points="432.37,-402.015 439.94,-394.602 429.4,-395.676 432.37,-402.015"></polygon>
+<text text-anchor="middle" x="418.882" y="-418.8" font-family="Times,serif" font-size="14.00">east</text>
+</g>
+<!-- == Hull Breach ==&#45;&gt;== Kitchen == -->
+<g id="edge74" class="edge"><title>== Hull Breach ==-&gt;== Kitchen ==</title>
+<path fill="none" stroke="black" d="M367.658,-486.139C363.362,-497.541 356.322,-512.175 346,-522 338.582,-529.061 329.496,-534.858 320.18,-539.56"></path>
+<polygon fill="black" stroke="black" points="318.433,-536.512 310.841,-543.903 321.385,-542.86 318.433,-536.512"></polygon>
+<text text-anchor="middle" x="373.776" y="-508.8" font-family="Times,serif" font-size="14.00">north</text>
+</g>
+</g>
+</svg>
