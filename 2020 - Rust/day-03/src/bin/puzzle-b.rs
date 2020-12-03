@@ -1,6 +1,10 @@
 use day_03::input::{DataType, DATA};
 
-fn get_data_dim(data: &DataType) -> (usize, usize) {
+type Dim = (usize, usize);
+type Pos = Dim;
+type Trajectory = Dim;
+
+fn get_data_dim(data: &DataType) -> Dim {
     ( data.len(),
       match data.len() {
           0 => 0,
@@ -8,28 +12,30 @@ fn get_data_dim(data: &DataType) -> (usize, usize) {
     })
 }
 
-fn count_trees(data: &DataType, trajectory: &(usize, usize)) -> usize {
-    let dim = get_data_dim(data);
-    let mut pos = (0usize, 0usize);
-    let mut num_trees = 0usize;
-    while pos.0 < dim.0 {
-        num_trees += data[pos.0][pos.1] as usize;
-        pos = (pos.0 + trajectory.0, (pos.1 + trajectory.1) % dim.1)
+fn count_trees(data: &DataType) -> impl '_ + Fn(&Trajectory) -> usize {
+    move |trajectory| {
+        let dim: Dim = get_data_dim(data);
+        let mut pos: Pos = (0, 0);
+        let mut num_trees: usize = 0;
+        while pos.0 < dim.0 {
+            num_trees += data[pos.0][pos.1] as usize;
+            pos = (pos.0 + trajectory.0, (pos.1 + trajectory.1) % dim.1)
+        }
+        num_trees
     }
-    num_trees
 }
 
 fn run(data: &DataType) -> usize {
-    let trajectories = vec![
-        (1usize, 1usize),
-        (1usize, 3usize),
-        (1usize, 5usize),
-        (1usize, 7usize),
-        (2usize, 1usize),
+    let trajectories: Vec<Trajectory> = vec![
+        (1, 1),
+        (1, 3),
+        (1, 5),
+        (1, 7),
+        (2, 1),
     ];
     trajectories.iter()
-    .map(|trajectory| count_trees(data, trajectory))
-    .product()
+        .map(count_trees(data))
+        .product()
 }
 
 fn main() {
