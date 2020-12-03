@@ -1,22 +1,45 @@
-
-import requests
-import os.path
+from os import environ
 from datetime import datetime
-from apscheduler.schedulers.blocking import BlockingScheduler
 
+from apscheduler.schedulers.blocking import BlockingScheduler
+import requests
+
+sched = BlockingScheduler()
 session = requests.Session() 
-session.cookies.set('session', '53616c7465645f5fa78d43585e156ce83eae432eb656c3fc4da1d2978e4b504ec6f4730f2d630b1f7dd8884bc21ec49f')
+session.cookies.set('session', environ['AOC_SESSION'])
+
+rust_templ = '''
+pub type DataType = Vec<_>;
+
+lazy_static! {
+    pub static ref DATA: DataType = vec![
+        content
+    ];
+}
+'''
+
+def format_content(ext, content: str) -> str:
+    if ext == 'rs':
+        return rust_templ.replace('content', content.replace('\n', ',\n        '))
+
+    return content
 
 def get_input(path: str, year: int, day: int, time: int, **kwargs):
-    file_path = path.format(day=day)
     response = session.get(f'https://adventofcode.com/{year}/day/{day}/input')
+
     if response.status_code == 200:
+        file_path = path.format(day=day)
+        file_ext = file_path.split('.')[-1]
+        file_content = format_content(file_ext, response.text)
+
         with open(file_path, 'w+') as fd:
-            fd.write(response.text)
+            fd.write(file_content)
             print(f'Fetched day {day} input to {file_path}')
     else:
         print(f'Network error: {response.status_code}')
 
+    if sched.running: 
+        sched.shutdown()
 
 if __name__ == '__main__':
     import argparse
@@ -35,6 +58,5 @@ if __name__ == '__main__':
     if not args.watch:
         get_input(**vars(args))
     else:
-        sched = BlockingScheduler()
         job = sched.add_job(get_input, 'date', run_date=datetime(today.year, today.month, today.day, args.time, 0, 5), kwargs=vars(args))        
         sched.start()
