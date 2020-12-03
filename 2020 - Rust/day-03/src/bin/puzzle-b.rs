@@ -1,3 +1,4 @@
+use rayon::prelude::*;
 use day_03::input::{DataType, DATA};
 
 type Dim = (usize, usize);
@@ -33,7 +34,7 @@ fn run(data: &DataType) -> usize {
         (1, 7),
         (2, 1),
     ];
-    trajectories.iter()
+    trajectories.par_iter()
         .map(count_trees(data))
         .product()
 }
