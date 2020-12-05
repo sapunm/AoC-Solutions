@@ -10,6 +10,7 @@ session.cookies.set('session', environ['AOC_SESSION'])
 
 rust_templ = '''
 pub type DataType = Vec<_>;
+pub type ResultType = usize;
 
 lazy_static! {
     pub static ref DATA: DataType = vec![
@@ -20,7 +21,7 @@ lazy_static! {
 
 def format_content(ext, content: str) -> str:
     if ext == 'rs':
-        return rust_templ.replace('content', content.replace('\n', ',\n        '))
+        return rust_templ.replace('content', content.replace('\n', '\n        '))
 
     return content
 
