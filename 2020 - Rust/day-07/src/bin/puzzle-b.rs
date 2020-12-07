@@ -3,8 +3,7 @@ use std::collections::HashMap;
 use itertools::Itertools;
 
 fn count_bags(outer_bag: &str, bags_map: &HashMap<&str, HashMap<&str, usize>>) -> usize {
-    let bag_contents = &bags_map[outer_bag];
-    bag_contents.iter()
+    bags_map[outer_bag].iter()
         .map(|(&bag, &count)| count * count_bags(bag, bags_map))
         .sum::<usize>() + 1
 }
